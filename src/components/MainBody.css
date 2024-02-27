@@ -62,7 +62,7 @@
     .trophy{
       justify-content: center;
       height: 50vw;
-      width: auto;
+      max-width: 30vw;
       margin-left: 0px;
       margin-right: 0em;
       
