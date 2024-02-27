@@ -29,6 +29,10 @@ hr{
     margin-right: 1.4em;
     margin-left: 1.4em;
 }
+.moto{
+    max-width: 60vw;
+    margin: 0 auto;
+}
 
 @media (min-width: 768px) {
     .trophy{
