@@ -1,0 +1,78 @@
+.main-body {
+  display: flex;
+  justify-content: center;
+  margin-left: 12em;
+  margin-right: 12em;
+  flex: 1;
+  max-width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.right div{
+  text-align: left;
+}
+
+.right p{
+  text-align: left;
+}
+
+.left{
+  flex: 1; /* Take up equal space */
+  text-align: center; /* Center content within each div */
+}
+
+.right {
+  flex: 2; /* Take up equal space */
+  text-align: center; /* Center content within each div */
+  /* margin-top: 15em; */
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+  .main-body {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    text-align: center; /* Center content within the container */
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .left,
+  .right {
+    flex: auto; /* Take up full width on smaller screens */
+  }
+
+  .trophy{
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    
+  }
+
+  .banner{
+    width: 370px;
+    height: auto;
+    max-width: 100%;
+    margin-top: 1em;
+  }
+
+}
+
+  @media (min-width: 769px) {
+    .trophy{
+      justify-content: center;
+      height: 920px;
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+      
+    }
+  
+    .banner{
+      height: 620px;
+      width: auto;
+      margin-left: -7em;
+      max-width: 100%;
+      margin-top: 1.3em;
+    }
+  }

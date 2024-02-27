@@ -1,0 +1,10 @@
+.app {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+
+
+.center {
+  display: flex;
+  align-items: center;
+}
