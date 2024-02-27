@@ -29,3 +29,22 @@ hr{
     margin-right: 1.4em;
     margin-left: 1.4em;
 }
+
+@media (min-width: 768px) {
+    .trophy{
+      justify-content: center;
+      height: 820px;
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px;
+      
+    }
+  
+    .banner{
+      height: 620px;
+      width: auto;
+      margin-left: -7em;
+      max-width: 100%;
+      margin-top: 1.3em;
+    }
+  }
