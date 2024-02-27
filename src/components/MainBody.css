@@ -58,11 +58,11 @@
 
 }
 
-  @media (min-width: 769px) {
+
     .trophy{
       justify-content: center;
       height: 820px;
-      width: 100%;
+      width: 80%;
       margin-left: 0px;
       margin-right: 0px;
       
@@ -75,4 +75,4 @@
       max-width: 100%;
       margin-top: 1.3em;
     }
-  }
+  
