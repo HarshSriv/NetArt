@@ -25,7 +25,7 @@
 .right {
   flex: 2; /* Take up equal space */
   text-align: center; /* Center content within each div */
-  /* margin-top: 15em; */
+
 }
 
 /* Adjust layout for smaller screens */
@@ -64,15 +64,16 @@
       max-height: 40vw;
       width: auto;
       margin-left: 0px;
-      margin-right: 0px;
+      margin-right: 5em;
       
     }
   
     .banner{
-      width: 40vw;
-      max-width: 60vw;
-      height: auto;
-      margin-left: 5em;
+      height: 26vw;
+      margin-left: -3em;
       margin-top: 1.3em;
+    }
+    .right{
+      margin-left: 5em;
     }
   }
