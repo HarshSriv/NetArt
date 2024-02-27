@@ -1,9 +1,9 @@
 
  .header {
-   height: 130px;
+   height: 140px;
     display: flex;
     justify-content: center;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
   }
 
   @media (max-width: 768px) {
