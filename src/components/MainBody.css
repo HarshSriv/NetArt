@@ -61,7 +61,7 @@
   @media (min-width: 769px) {
     .trophy{
       justify-content: center;
-      max-height: 80vw;
+      max-height: 40vw;
       width: auto;
       margin-left: 0px;
       margin-right: 0px;
@@ -69,8 +69,9 @@
     }
   
     .banner{
-      height: 40vw;
-      width: auto;
+      width: 50vw;
+      max-width: 60vw;
+      height: auto;
       margin-left: 1em;
       margin-top: 1.3em;
     }
