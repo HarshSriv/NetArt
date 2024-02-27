@@ -76,4 +76,7 @@
     .right{
       margin-left: 3em;
     }
+    .right p{
+      margin-left: -1em;
+    }
   }
